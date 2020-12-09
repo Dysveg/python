@@ -1,0 +1,6 @@
+custom_number = (input('Введите число: '))
+total_1 = (custom_number + custom_number)
+total_2 = (custom_number + custom_number + custom_number)
+total_3 = int(custom_number) + int(total_1) + int(total_2)
+total_4 =  (f"{custom_number} + {total_1} + {total_2}")
+print(f"{total_4} = {total_3}")
